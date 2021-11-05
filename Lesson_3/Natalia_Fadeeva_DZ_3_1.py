@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 from pprint import pprint
 from pymongo import MongoClient
-from pymongo.errors import DuplicateKeyError as dk
 
 client = MongoClient('127.0.0.1', 27017)
 db = client['hh_vacancy']
